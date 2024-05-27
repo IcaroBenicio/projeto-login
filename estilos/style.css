@@ -39,3 +39,40 @@ section#Login > div#imagem {
 section#Login > div#form {
 
 }
+section#Login > div#form > h1 {
+    text-align: center;
+}
+section#Login > div#form > p {
+    text-align: justify;
+    padding: 10px;
+}
+input.campodeescrita {
+    border-radius: 10px;
+    padding: 5px 20px 5px 5px;
+    margin: 5px 0px 7px 5px;
+}
+label.nameform {
+    margin-left: 8px;
+}
+input#botenviar {
+    padding: 4px 90px 4px 90px;
+    margin-left: 15px;
+    border-radius: 10px;
+    margin-bottom: 7px;
+    background-color: rgba(255, 0, 255, 0.507);
+    font-weight: bold;
+    text-shadow: 1px 1px 1px white;
+}
+input#esquesenha {
+    padding: 4px 52px 4px 52px;
+    margin-left: 15px;
+    border-radius: 10px;
+    background-color: rgba(65, 2, 65, 0.767);
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.719);
+}
+input.chamar :hover {
+    background-color: rgba(255, 255, 255, 0.801);
+    color: black;
+}
