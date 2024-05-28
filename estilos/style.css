@@ -55,14 +55,21 @@ input.campodeescrita {
     border-radius: 10px;
     padding: 5px 15px 5px 5px;
     margin: 5px 0px 7px 3px;
-}               
+
+}      
+div.campo > input {
+    background-color: rgba(109, 30, 182, 0.507);
+    color: rgb(0, 0, 0);
+    width: calc(90% - 40px);
+}    
+div.campo > input:focus-within {
+background-color: white;
+}     
 div.campo > label {
     display: none;
     
 }
-div.campo > label :hover {
-    display: on;
-}
+
 input#botenviar {
     width: 90%;
     height: 40px;
