@@ -25,7 +25,7 @@ section#Login {
 
     display: block;
     background-color: white;
-    width: 250px;
+    width: 270px;
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.651);
@@ -45,30 +45,32 @@ section#Login > div#form {
 }
 section#Login > div#form > h1 {
     text-align: center;
+    margin-bottom: 10px;
 }
 section#Login > div#form > p {
     text-align: justify;
-    padding: 10px;
+    font-size: 0.8em;
 }
 input.campodeescrita {
     border-radius: 10px;
-    padding: 5px 20px 5px 5px;
-    margin: 5px 0px 7px 5px;
-}
+    padding: 5px 15px 5px 5px;
+    margin: 5px 0px 7px 3px;
+}               
 label.nameform {
-    margin-left: 8px;
+    
 }
 input#botenviar {
-    padding: 4px 90px 4px 90px;
+    padding: 4px 78px 4px 78px;
     margin-left: 15px;
     border-radius: 10px;
     margin-bottom: 7px;
     background-color: rgba(255, 0, 255, 0.507);
     font-weight: bold;
     text-shadow: 1px 1px 1px white;
+    display: block;
 }
 input#esquesenha {
-    padding: 4px 52px 4px 52px;
+    padding: 4px 40px 4px 40px;
     margin-left: 15px;
     border-radius: 10px;
     background-color: rgba(65, 2, 65, 0.767);

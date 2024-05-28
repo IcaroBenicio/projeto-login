@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mediaqueys.css">
 </head>
@@ -17,21 +18,23 @@
                 
                 <h1>Login</h1>
                 <p>Seja Bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-                <form action="" method="post" autocomplete="off">
-                    <div>
+                <form action="" method="post" autocomplete="on">
+                    <div class="campo">
+                        <span class="material-symbols-outlined">person</span>
+                        <input type="email" name="Email" id="iEmail" placeholder="Seu e-mail" class="campodeescrita" required maxlength="80" autocomplete="email">
                         <label for="iEmail" class="nameform">E-mail:</label>
-                        <input type="email" name="Email" id="iEmail" class="campodeescrita" required maxlength="80">
                     </div>
-                    <div>
+                    <div class="campo">
+                        <span class="material-symbols-outlined">vpn_key</span>
+                        <input type="password" name="Senha" id="iSenha" placeholder="Sua senha" class="campodeescrita" required minlength="6" maxlength="25" autocomplete="new-password"> 
                         <label for="iSenha" class="nameform">Senha:</label>
-                        <input type="password" name="Senha" id="iSenha" class="campodeescrita" required minlength="6" maxlength="25">
                     </div>
-                    <div>
+                 
                         <input type="submit" value="Enviar" id="botenviar" class="chamar">
-                    </div>
-                    <div>
+                  
                         <input type="submit" value="Esqueceu a Senha?" id="esquesenha" class="chamar">
-                    </div>
+                        <span class="material-symbols-outlined">mail</span>
+                   
                 </form>
             </div>
         </section>
