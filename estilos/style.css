@@ -56,10 +56,16 @@ input.campodeescrita {
     padding: 5px 15px 5px 5px;
     margin: 5px 0px 7px 3px;
 }               
-label.nameform {
+div.campo > label {
+    display: none;
     
 }
+div.campo > label :hover {
+    display: on;
+}
 input#botenviar {
+    width: 90%;
+    height: 40px;
     padding: 4px 78px 4px 78px;
     margin-left: 15px;
     border-radius: 10px;
@@ -68,17 +74,28 @@ input#botenviar {
     font-weight: bold;
     text-shadow: 1px 1px 1px white;
     display: block;
+    cursor: pointer;
 }
-input#esquesenha {
-    padding: 4px 40px 4px 40px;
+a#esquesenha {
+    text-align: center;
+    display: block;
+    width:90%;
+    height: 40px;
+    padding: 4px 64px 4px 40px;
     margin-left: 15px;
     border-radius: 10px;
-    background-color: rgba(65, 2, 65, 0.767);
-    color: white;
+    border: 1px solid rgba(65, 2, 65, 0.767);
+    color: rgb(0, 0, 0);
     font-weight: bold;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.719);
+    cursor: pointer;
+    font-weight: 400;
+    text-decoration: none;
 }
-input.chamar :hover {
-    background-color: rgba(255, 255, 255, 0.801);
+form > input[type=submit]:hover {
+background-color: rgba(255, 0, 0, 0.801);
     color: black;
 } 
+form  > a#esquesenha > span {
+    font-size: 0.8em;
+}
